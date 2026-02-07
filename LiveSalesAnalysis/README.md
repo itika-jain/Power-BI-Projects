@@ -4,8 +4,7 @@ Live Sales Data Simulation & Power BI Analytics Dashboard
 
 📖 Project Overview
 
-This project demonstrates an end-to-end Business Intelligence solution where live sales data is continuously generated using PostgreSQL simulations and visualized in an interactive Power BI dashboard.
-The system mimics a real-world e-commerce environment with automated order creation, item purchases, customer growth, and payment processing — allowing dynamic, time-based analytics.
+This project showcases a comprehensive Business Intelligence solution, where live sales data is consistently produced through PostgreSQL simulations and displayed in an interactive Power BI dashboard. The system replicates a real e-commerce setting with automated order generation, product purchases, customer expansion, and payment transactions — facilitating dynamic, time-sensitive analytics.
 
 ⚙️ Tech Stack
 
