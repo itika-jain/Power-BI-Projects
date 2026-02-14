@@ -1,14 +1,12 @@
 set search_path to sales;
-TRUNCATE TABLE payments, order_items, orders, customers, products RESTART IDENTITY CASCADE;
-
+TRUNCATE TABLE customers RESTART IDENTITY CASCADE;
 
 insert into regions (region_name) values
-('North'),
-('South'),
-('East'),
-('West'),
-('Central') on conflict (region_name) do nothing;
-
+('Middle East & Africa'),
+('South America'),
+('Europe'),
+('Asia Pacific'),
+('North America') on conflict (region_name) do nothing;
 
 insert into categories (category_name) values
 ('Electronics'),

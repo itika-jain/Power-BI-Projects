@@ -11,6 +11,7 @@ RETURNS INT AS $$
 DECLARE
     v_customer INT;
     v_order_id INT;
+
 BEGIN
 
 	if random() < 0.3 then
@@ -24,6 +25,7 @@ BEGIN
     	ORDER BY RANDOM()
     	LIMIT 1;
 	end if;
+
 
     -- Insert order
     INSERT INTO orders (customer_id, order_status, total_amount)
